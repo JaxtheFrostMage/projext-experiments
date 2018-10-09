@@ -309,6 +309,6 @@ deck* deck::inst = 0;
 int main(int argc, char* argv[]) {
 	srand(static_cast<unsigned>(time(NULL)));
 	goFish f;  f.play();
-	//system("pause");
+	system("Color 20");
 	return 0;
 }
